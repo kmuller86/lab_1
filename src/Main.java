@@ -27,7 +27,9 @@ public class Main {
         double liczba = scannner.nextDouble();
         if(liczba < 0)
             System.out.println("Liczba ujemna.");
-        else if(liczba != 0 && liczba < 10.45)
+        else if(liczba == 0)
+            System.out.println("ZERO!");
+        else if(liczba < 10.45)
             System.out.println("Liczba dodatnia, mniejsza od 10,45");
         else
             System.out.println("Liczba wieksza od 10,45");
