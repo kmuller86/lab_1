@@ -10,6 +10,7 @@ public class Main {
 
         System.out.print("To jest jakiś");
         System.out.print(" tekst");
-        System.out.print(" nie za długi.");
+        System.out.print(" nie za długi.\n");
+        System.out.print("dodatkowy tekst.");
     }
 }
